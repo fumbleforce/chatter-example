@@ -39,6 +39,7 @@ jagi:astronomy-timestamp-behavior@1.0.0
 jorgeer:chatter-core@0.1.0
 jorgeer:chatter-semantic@0.1.0
 jquery@1.11.4
+jsx@0.1.6
 launch-screen@1.0.4
 less@2.5.0_3
 livedata@1.0.15
@@ -63,6 +64,11 @@ ordered-dict@1.0.4
 promise@0.5.0
 random@1.0.4
 rate-limit@1.0.0
+react@0.1.0
+react-meteor-data@0.1.6
+react-runtime@0.13.3
+react-runtime-dev@0.13.3
+react-runtime-prod@0.13.3
 reactive-dict@1.1.2
 reactive-var@1.0.6
 reload@1.1.4
