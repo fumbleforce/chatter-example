@@ -69,6 +69,7 @@ react-meteor-data@0.1.6
 react-runtime@0.13.3
 react-runtime-dev@0.13.3
 react-runtime-prod@0.13.3
+react-template-helper@0.1.2
 reactive-dict@1.1.2
 reactive-var@1.0.6
 reload@1.1.4
