@@ -1,12 +1,16 @@
 <head>
-  <title>Todo List</title>
+  <title>chatterexample</title>
 </head>
 
 <body>
-  <div id="render-target"></div>
   <h1>Welcome to Meteor!</h1>
   {{> loginButtons}}
   {{> hello}}
-  {{> chatter}}
 
+  {{> chatter}}
 </body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
