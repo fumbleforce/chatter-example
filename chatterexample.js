@@ -17,8 +17,6 @@ if (Meteor.isServer) {
 
     const fun_and_gigggles = Chatter.addRoom("Fun and Giggles");
     const dragons_and_dungeons = Chatter.addRoom("Dragons & Dungeons");
-    console.log(fun_and_gigggles);
-    console.log(dragons_and_dungeons);
 
     const kristian = Meteor.users.findOne({_id: "H7zX4HJhqt9XYtPhN"});
     const test = Meteor.users.findOne({_id: "G59qLzorwpDYQCfhR"});
