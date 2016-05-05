@@ -15,24 +15,24 @@ if (Meteor.isServer) {
         return user;
     });
 
-    const fun_and_gigggles = Chatter.addRoom("Fun and Giggles");
-    const dragons_and_dungeons = Chatter.addRoom("Dragons & Dungeons");
+    // const fun_and_gigggles = Chatter.addRoom("Fun and Giggles");
+    // const dragons_and_dungeons = Chatter.addRoom("Dragons & Dungeons");
 
-    const kristian = Meteor.users.findOne({_id: "H7zX4HJhqt9XYtPhN"});
-    const test = Meteor.users.findOne({_id: "G59qLzorwpDYQCfhR"});
+    // const kristian = Meteor.users.findOne({_id: "H7zX4HJhqt9XYtPhN"});
+    // const test = Meteor.users.findOne({_id: "G59qLzorwpDYQCfhR"});
 
-    if (kristian != undefined) {
-      const kristianId = kristian._id;
-      Chatter.addUser(kristianId, "admin");
-      Chatter.addUserToRoom(kristianId, fun_and_gigggles);
-      Chatter.addUserToRoom(kristianId, dragons_and_dungeons);
+    // if (kristian != undefined) {
+    //   const kristianId = kristian._id;
+    //   Chatter.addUser(kristianId, "admin");
+    //   Chatter.addUserToRoom(kristianId, fun_and_gigggles);
+    //   Chatter.addUserToRoom(kristianId, dragons_and_dungeons);
 
-    }
+    // }
 
-    if (test != undefined) {
-      const testId = test._id;
-      Chatter.addUser(testId);
-      Chatter.addUserToRoom(testId, dragons_and_dungeons);
-    }
-}
+    // if (test != undefined) {
+    //   const testId = test._id;
+    //   Chatter.addUser(testId);
+    //   Chatter.addUserToRoom(testId, dragons_and_dungeons);
+    // }
+ }
 

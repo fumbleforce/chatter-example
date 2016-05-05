@@ -1,0 +1,7 @@
+module.exports = function() {
+  this.Then(/^I logout$/, function () {
+    browser.click("#login-name-link");
+    browser.waitForExist("#login-buttons-logout");
+    browser.click("#login-buttons-logout");
+  });
+};

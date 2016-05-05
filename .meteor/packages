@@ -28,3 +28,6 @@ mquandalle:jade
 accounts-ui
 standard-minifier-css
 standard-minifier-js
+practicalmeteor:mocha
+xolvio:cleaner
+practicalmeteor:chai

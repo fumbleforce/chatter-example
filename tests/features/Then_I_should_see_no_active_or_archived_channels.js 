@@ -1,0 +1,5 @@
+module.exports = function() {
+  this.Then(/^I should see no active or archived channels$/, function () {
+    pending();
+  });
+};
