@@ -1,7 +1,8 @@
 module.exports = function() {
-  this.Given(/^I am logged in$/, function () {
+  this.Given(/^I am logged in and have a chatter user in$/, function () {
+    server.call("createTestUser");
     browser.url('http://localhost:3000');
-    browser.waitForExist("#login-sign-in-link");
+    browser.waitForExist("#login-sign-in-link", 2000);
     browser.click("#login-sign-in-link");
     browser.setValue("input[id='login-email'", "kyvik_bcn@yahoo.es");
     browser.setValue("input[id='login-password'", "banana");
