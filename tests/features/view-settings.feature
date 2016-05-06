@@ -4,7 +4,7 @@ I want to be able to be able to enter a room,
 and to view its settings page.
 
 Background:
-  Given I am logged in and have a chatter user in
+  Given I am logged in and have a chatter user
   And that I have been added to a room
 
 Scenario: User enters room and views settings page

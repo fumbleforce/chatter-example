@@ -1,5 +1,5 @@
 module.exports = function() {
-  this.Given(/^I am logged in and have a chatter user in$/, function () {
+  this.Given(/^I am logged in and have a chatter user$/, function () {
     server.call("createTestUser");
     browser.url('http://localhost:3000');
     browser.waitForExist("#login-sign-in-link", 2000);
