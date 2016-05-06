@@ -1,8 +1,6 @@
-@watch
-
-Feature: Create channel
+Feature: Write a message
 As a chatter user,
-I want to be able to tenter a room
+I want to be able to enter a room
 so that I can write messages.
 
 Background:
@@ -11,7 +9,7 @@ Background:
 
 Scenario: User enters a room and writes a message
   Then the user should see the room on the list
-  When the user click on a room of the room list
+  When the user clicks on a room of the room list
   Then he should enter the room
   When the user writes a message
   Then the message should appear
