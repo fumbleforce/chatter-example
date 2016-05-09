@@ -1,4 +1,3 @@
-@watch
 Feature: Chat widget
 As a chatter user,
 I want to be able to minify the chat window
